@@ -22,5 +22,13 @@ def benchmark(functions, size, runs):
     return time_taken
 
 functions = [bubble.bubbleSort , merge.merge_sort, counting.CountingSort, insertion.insertionSort, quick.quickSort]
-print(benchmark(functions, 10000, 10))
+sizes =[100, 1000, 10000, 100000, 1000000]
+for size in sizes:
+
+    res = benchmark(functions, size, 10)
+    f = open("benchmark.txt", "a")
+    f.write(f"size: {size}\nbubbleSort: {res[0]}, merge_sort: {res[1]}, CountingSort: {res[2]}, insertionSort: {res[3]}, quickSort: {res[4]}\n")
+    f.close()
+
+
     
