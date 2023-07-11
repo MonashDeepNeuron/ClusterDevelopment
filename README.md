@@ -18,15 +18,17 @@ A 4 member team that works with a Raspberry Pi cluster to investigate HPC-relate
 
 **Goals:**
 
+- Build familiarity with the cluster and the technologies involved
+
 - Complete goals set last semester – automated Ansible-based node config, setup remote SSH and build hardware enclosure.
 
-- Integrating Apache Spark with SLURM?
+**Potential Scopes (we will pick one to do this semester):**
 
-- Comparing different job scheduling algorithms?
+- Extend SLURM with systems for data analytics / processing (Apache Spark)
 
-- Build custom job scheduler?
+- Build a custom job scheduler
 
-- Install / setup load balanced web server?
+- Build / setup load balanced web/game server
 
 **Skills Involved:**
 
